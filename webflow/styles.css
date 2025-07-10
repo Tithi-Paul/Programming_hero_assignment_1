@@ -239,3 +239,63 @@ body {
 .contact-right button:hover {
   background-color: #3730a3;
 }
+
+.footer-section {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 100%;
+  margin: 40px auto;
+}
+
+.footer-logo {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.footer-subtitle {
+  font-size: 1rem;
+  color: #9ca3af; 
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.footer-nav a {
+  color: #9ca3af;
+  margin: 0 18px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
+
+button,
+.signup-btn,
+.stay-focused-btn,
+.launch-btn,
+.contact-right button {
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover,
+.signup-btn:hover,
+.stay-focused-btn:hover,
+.launch-btn:hover,
+.contact-right button:hover {
+  background-color: #3730a3 !important; 
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(55, 48, 163, 0.3);
+}
+
+
